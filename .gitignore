@@ -14,7 +14,9 @@ logs
 results
 
 npm-debug.log
-node_modules
+!node_modules
+node_modules/*
+!node_modules/ascoltatori
 docs
 mosquitto.db
 *rdb
